@@ -30,6 +30,7 @@ function validateForm() {
         document.forms["formPendaftaran"]["dosen"].focus();
         return false;
     }
+    alert("Berhasil disubmit!");
 }
 
 function generateDosen(mk) {
